@@ -42,6 +42,7 @@ export const ColorConverter = () => {
           type="text"
           placeholder="#FFFFFF"
           value={hex}
+          maxLength={7}
           onChange={handleInputChange}
         />
         <div className={classes["output-rgb"]}>{rgb}</div>
